@@ -102,6 +102,14 @@ main>section{
 #quick-list{
     font-weight: 500;
 }
+#feature-section-titel{
+    border: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-cars .feature-titel{
+    font-weight: 600px;
+    font-size: 1.25rem;
+}
 /* some fect related style */
 .fact-cointainer{
     display: grid;
@@ -172,6 +180,7 @@ main>section{
     .sponsorce-companies,.fact-cointainer{
         grid-template-columns: repeat(2,1fr);
         gap: 50px;
+        justify-items: center;
     }
     
 }
